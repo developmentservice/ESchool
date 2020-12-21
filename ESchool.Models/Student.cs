@@ -4,8 +4,8 @@ using System.Text;
 
 namespace ESchool.Models
 {
-    public class Student
+    public class Student : Person
     {
-
+        public string Class { get; set; }
     }
 }
